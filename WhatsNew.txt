@@ -1,0 +1,16 @@
+22.3.2010 - Version 0.2.0
+_________________________________________________
+
+Features:
+- Addition of Library module.  (Add and/or play songs in current playlist when clicked in library.)
+- Fastforward and Rewind added.  (Hold next/prev buttons to activate.)
+- Fake asynchronous, cancelable writes and clears of main lists.  
+
+Modifications:
+- Reduced playback information to achieve a greater level of minimalism.
+- Massive restructuring of existing code.  Javascript split into multiple files, and converted to 
+  "classes" in places.  Tabs broken down into distinct modules.  And others (with more to come.)
+
+Bug Fixes:
+- Bug 18: PHP session_start() warning.
+- Bug 17: Character encoding issues with library module.

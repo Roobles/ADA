@@ -1,0 +1,76 @@
+/* Font Colors */
+body, .directory {
+	color:			#C7B99B
+}
+
+.tabSelected span, #SongInfo, #Login h1, .clickable:hover {
+	color:			#EBD462
+}
+
+.clickable, #TabbedContent h3, #SongStatus, #SongVolumeValue  {
+	color:			#D9D093
+}
+
+/* Background Colors */
+body {
+	background-color: 	#100c02
+}
+
+#Container, #SearchSection, .tabSelected {
+	background-color:	#333
+}
+
+#HeaderControls, .TableStyle02 {
+	background-color:	#222
+}
+
+.TableStyle01 {
+	background-color:	#181818
+}
+
+
+/* Special Theme-Based Formatting and Overrides  */
+#ControlNest {
+	position:		relative;
+	top:			.5em;
+	left:			-.15em
+}
+
+#TabControls ul, #TabControls li, #TabControls span {
+	padding-top:		.5em;
+	padding-bottom:		.5em
+}
+
+#SongSearch {
+	margin-bottom:		.5em
+}
+
+.tabSelected span {
+	text-decoration:	none;
+	cursor:			default	
+}
+
+#SearchSection {
+	position:		relative;
+	left:			.35em;
+	padding:		.4em 2px .5em 1em;
+	top:			-1px
+}
+
+
+/* Borders */
+#Container, #HeaderControls {
+	border-style:		solid;
+	border-width:		1px;
+}
+
+#Container {
+	border-color:		#555
+}
+
+#HeaderControls {
+	border-color:		#181818
+}
+
+/* Images */
+

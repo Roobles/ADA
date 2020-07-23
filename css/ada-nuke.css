@@ -1,0 +1,9 @@
+/* Clear default values */
+
+body, html, div, form, h1, h2, h3, h4, p, span, a, ul, li {
+	margin:		0em;
+	padding:	0em;
+	font-weight:	normal;
+	font-family:	sans-serif;
+	border:		0em
+}

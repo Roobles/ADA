@@ -1,0 +1,144 @@
+body {
+	text-align:		center; /* Part of a stupid IE Hack, to get the container centered. */
+	font-size:		.7em
+}
+
+#Container {
+	margin:			auto;
+	width:			90%;
+	margin-top:		2em;
+	padding:		1em;
+	text-align:		left  /* Adjusts for stupid IE alignment hack. */
+}
+
+#HeaderSection {
+	display:		inline
+}
+
+#HeaderTools {
+	font-size:		.8em;
+	float:			right
+}
+
+#HeaderTools li {
+	display:		inline;
+	padding:		0em .25em
+}
+
+#SongInfo {
+	text-align:		center;
+	padding-top:         	1em
+}
+
+#SongName {
+	font-size:		1.4em;
+	font-weight:		500
+}
+
+#SongStatus, #SongVolume {
+	display:		inline;
+	font-size:		1.2em;
+	font-weight:		400
+}
+
+#SongProgress, #SongLeft {
+	margin-left:		1em
+}
+
+#SongVolume {
+	display:		inline;
+	margin-left:		3em
+}
+
+#TabControls {
+	display:		inline
+}
+
+#TabControls span {
+	font-weight:		bold;
+	padding:		0em 1em;
+	font-size:		1.1em;
+	font-weight:		500
+}
+
+#TabControls  li{
+	display:		inline
+}
+
+#SearchSection, #VolumeControl {
+	float:			right
+}
+
+#SongSearch {
+	width:			10em;
+}
+
+#SearchLabel, #SongVolume, #SongSearch {
+	font-size:		.8em
+}
+
+#TabbedContainer {
+	width:			100%;
+	clear:			both;
+	padding:		.75em 0em 1em 0em
+}
+
+#TabbedContent {
+	overflow:		auto
+}
+
+#TabbedContent li, #TabbedContent ul {
+	width:			100%;
+	display:		block
+}
+
+#TabbedContent span , h3 {
+	padding-left:		.5em
+}
+
+#TabbedContent input {
+	margin-left:		1.25em;
+}
+
+#OptionsSection h3 {
+	font-weight:		300;
+	padding-top:		1em
+}
+
+#ControlButtons {
+	display:		inline
+}
+
+.TableStyle01, .TableStyle02 {
+	width:			100%
+}
+
+.clickable:hover {
+	cursor:			pointer
+}
+
+.hidden {
+	display:		none
+}
+
+/*  Login Page */ 
+#Login h1 {
+	margin-bottom:		.5em
+}
+
+#LoginButton {
+	margin-top:		1em
+}
+
+#Login label {
+	font-family:		monospace
+}
+
+#UserName, #Password {
+	width:			15em
+}
+
+#Login .inputEntry {
+	display:		block
+}
+
